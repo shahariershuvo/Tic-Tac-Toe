@@ -93,12 +93,12 @@ for (let pattern of winpattern){
             showwinner(pos1val);
         }
     }
-}
-}
+
 if (counter === 9){
     showdraw();
 }
-
+}
+}
 showdraw = () => {
    msg.innerText=`Match is Draw`;
    newcontainer.classList.remove("hide");
@@ -109,6 +109,7 @@ showdraw = () => {
 newgamebtn.addEventListener("click", resetGame);
 // resetBtn.addEventListener("click", resetGame);
 resetgame.addEventListener("click",resetGame);
+
 
 
 
