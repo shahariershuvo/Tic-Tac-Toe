@@ -30,7 +30,8 @@ const winpattern =[
 
 ];
 const resetGame=()=>{
-    turnO =true;
+    counter = 0;
+    turnO = true;
     enableboxes();
     newcontainer.classList.add("hide")
 };
@@ -108,6 +109,7 @@ showdraw = () => {
 newgamebtn.addEventListener("click", resetGame);
 // resetBtn.addEventListener("click", resetGame);
 resetgame.addEventListener("click",resetGame);
+
 
 
 
