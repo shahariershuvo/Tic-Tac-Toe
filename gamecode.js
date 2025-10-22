@@ -93,6 +93,7 @@ for (let pattern of winpattern){
         }
     }
 }
+}
 if (counter === 9){
     showdraw();
 }
@@ -104,10 +105,10 @@ showdraw = () => {
     
 }
 
-};
 newgamebtn.addEventListener("click", resetGame);
 // resetBtn.addEventListener("click", resetGame);
 resetgame.addEventListener("click",resetGame);
+
 
 
 
